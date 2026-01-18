@@ -11,6 +11,7 @@ public class Main {
             System.out.println("No! The number must be between 1 and 7!");
             userNumber = scanner.nextInt();
         }
+        System.out.println("Day " + userNumber + " of the week is " + weekdays[userNumber - 1] + ".");
 
 
 
